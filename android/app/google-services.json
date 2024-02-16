@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "777810629251",
+    "firebase_url": "https://sky-trade-ca6e1-default-rtdb.firebaseio.com",
+    "project_id": "sky-trade-ca6e1",
+    "storage_bucket": "sky-trade-ca6e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777810629251:android:d386dcda27466743f381b6",
+        "android_client_info": {
+          "package_name": "com.example.tenawo_beslkwo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRFojC6dTEDuOcKFmeHPku9P_4bhqDb-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777810629251:android:59513590228ea101f381b6",
+        "android_client_info": {
+          "package_name": "trade.sky.sky_radar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRFojC6dTEDuOcKFmeHPku9P_4bhqDb-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
