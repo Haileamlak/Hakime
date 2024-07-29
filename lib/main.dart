@@ -15,6 +15,7 @@ import 'package:tenawo_beslkwo/routes/Drug/drugs.dart';
 import 'package:tenawo_beslkwo/routes/Symptom/symptoms.dart';
 import 'package:tenawo_beslkwo/routes/login_page.dart';
 import 'package:tenawo_beslkwo/routes/user_profile.dart';
+import 'package:tenawo_beslkwo/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -30,16 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'ሐኪሜ',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-        // textTheme: TextTheme(
-        //     bodyLarge: TextStyle(fontSize: 20),
-        //     bodyMedium: TextStyle(fontSize: 16),
-        //     bodySmall: TextStyle(fontSize: 12),
-        //     displayLarge: TextStyle(fontSize: 25),
-        //     ),
-      ),
+      theme: appTheme,
       home: const LoginPage(),
     );
   }

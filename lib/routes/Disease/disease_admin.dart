@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:tenawo_beslkwo/assets/diseases_list.dart';
 import 'package:tenawo_beslkwo/ip.dart';
 import 'package:tenawo_beslkwo/models/Disease/disease.dart';
 import 'package:tenawo_beslkwo/models/Disease/disease_model.dart';

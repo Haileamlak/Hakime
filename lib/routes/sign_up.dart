@@ -56,7 +56,7 @@ class _SignUpState extends State<SignUp> {
                 decoration: const InputDecoration(
                   contentPadding: EdgeInsets.all(8),
                   border: OutlineInputBorder(),
-                  hintText: "Full Name",
+                  labelText: "Full Name",
                 ),
                 keyboardType: TextInputType.name,
               ),
@@ -68,7 +68,7 @@ class _SignUpState extends State<SignUp> {
                 decoration: const InputDecoration(
                   contentPadding: EdgeInsets.all(8),
                   border: OutlineInputBorder(),
-                  hintText: "e-mail",
+                  labelText: "E-mail",
                 ),
                 keyboardType: TextInputType.emailAddress,
               ),
@@ -80,7 +80,7 @@ class _SignUpState extends State<SignUp> {
                 decoration: const InputDecoration(
                   contentPadding: EdgeInsets.all(8),
                   border: OutlineInputBorder(),
-                  hintText: "username",
+                  labelText: "Username",
                 ),
               ),
             ),
@@ -91,7 +91,7 @@ class _SignUpState extends State<SignUp> {
                 decoration: const InputDecoration(
                   contentPadding: EdgeInsets.all(8),
                   border: OutlineInputBorder(),
-                  hintText: "password",
+                  labelText: "Password",
                 ),
                 obscureText: true,
               ),
@@ -103,7 +103,7 @@ class _SignUpState extends State<SignUp> {
                 decoration: const InputDecoration(
                   contentPadding: EdgeInsets.all(8),
                   border: OutlineInputBorder(),
-                  hintText: "confirm password",
+                  labelText: "Confirm password",
                 ),
                 obscureText: true,
               ),

@@ -140,7 +140,7 @@ class _LoginPageState extends State<LoginPage> {
               decoration: const InputDecoration(
                 contentPadding: EdgeInsets.all(15),
                 border: OutlineInputBorder(),
-                hintText: "e-mail",
+                labelText: "E-mail",
               ),
             ),
           ),
@@ -151,7 +151,7 @@ class _LoginPageState extends State<LoginPage> {
               decoration: const InputDecoration(
                 contentPadding: EdgeInsets.all(15),
                 border: OutlineInputBorder(),
-                hintText: "password",
+                labelText: "Password",
               ),
               obscureText: true,
             ),
